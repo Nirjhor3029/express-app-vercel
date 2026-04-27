@@ -8,7 +8,7 @@ app.use(express.json());
 
 // route
 app.get("/", (req, res) => {
-  res.send("Hello Express!");
+  res.send("Hello Everyone, This is my first express app!");
 });
 
 // api route
